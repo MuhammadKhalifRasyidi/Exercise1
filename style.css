@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(64, 6, 6, 0.734);
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3cqi;
+    overflow: hidden;
+    background-color: rgb(151, 146, 145);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.548); /* Menambahkan bayangan dengan warna transparan */
+  }
+
+  h1 {
+    font-family: algerian;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .container1 {
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .container1 .left-image {
+    float: left;
+    margin-right: 20px;
+  }
+  .container1 .left-image img {
+    width: 250px;
+    border-radius: 30px;
+  }
+  .container1 .right-content {
+    overflow: hidden;
+    margin-top: 0%;
+  }
+  .container1 p {
+    font-size: 32px;
+    text-align: justify;
+    font-family: Garamond;
+  }
+  .container2 p {
+    font-size: 18px;
+    text-align: justify;
+    font-family: garamond;
+  }
+  .container3 .bottom-images {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .container3 .bottom-images img {
+    width: 200px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 30px; /* Membuat sudut gambar menjadi sedikit melingkar */
+  }
+  .btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(14, 111, 150); /* Ubah warna latar belakang tombol menjadi pink */
+    color: #980e0e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
